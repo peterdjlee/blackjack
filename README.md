@@ -2,10 +2,7 @@
 
 This is a simplified version of Blackjack coded in Python.
 
-## Getting Started
-
-
-### Prerequisites
+## Prerequisites
 
 1. Check if python is installed by running:
 ```
@@ -13,7 +10,7 @@ python3 --version
 ```
 2. If not, click [here](https://realpython.com/installing-python/).
 
-### Playing
+## Playing
 
 1. Clone this repository.
 2. Run this line into your terminal
