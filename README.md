@@ -7,82 +7,38 @@ This is a simplified version of Blackjack coded in Python.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 1. Check if python is installed by running:
-  - ```
+```
 python3 --version
 ```
 2. If not, click [here](https://realpython.com/installing-python/).
 
-### Installing
+### Playing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+1. Clone this repository.
+2. Run this line into your terminal
 
 ```
-until finished
+python3 main.py
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+3. Follow instructions on the terminal
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
+## Rules
+1. Both players are dealt 2 cards facing up.
+2. Either players can choose to either stand or hit.
+3. Number cards' values are their numbers, 10s and face cards' values are 10, and ace's value is 11.
+4. A player automatically wins when their cards' values add up to 21.
+5. A player automatically loses when their cards' values goes over 21.
+Note: Both players can choose stand unlimited amount of times in this game.
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python](https://www.python.org/) - The main programming language
 
-## Contributing
+## Author
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Peter Lee**
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Credits to [GeeksforGeeks](https://www.geeksforgeeks.org/clear-screen-python/) for code to clear the terminal.
