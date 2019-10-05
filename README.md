@@ -28,6 +28,7 @@ python3 main.py
 4. A player automatically wins when their cards' values add up to 21.
 5. A player automatically loses when their cards' values goes over 21.
 Note: Both players can choose stand unlimited amount of times in this game.
+
 ## Built With
 
 * [Python](https://www.python.org/) - The main programming language
