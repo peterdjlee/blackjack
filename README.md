@@ -13,13 +13,13 @@ python3 --version
 ## Playing
 
 1. Clone this repository.
-2. Run this line into your terminal
+2. Run this line into your terminal:
 
 ```
 python3 main.py
 ```
 
-3. Follow instructions on the terminal
+3. Follow instructions on the terminal.
 
 ## Rules
 1. Both players are dealt 2 cards facing up.
@@ -45,7 +45,7 @@ Code was refactored into different functions and files to minimize redundancy an
 
 ## Built With
 
-* [Python](https://www.python.org/) - The main programming language
+* [Python](https://www.python.org/) - The main programming language.
 
 ## Author
 
