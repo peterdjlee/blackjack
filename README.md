@@ -29,6 +29,20 @@ python3 main.py
 5. A player automatically loses when their cards' values goes over 21.
 Note: Both players can choose stand unlimited amount of times in this game.
 
+## Design Choices
+Code was refactored into different functions and files to minimize redundancy and maximize readability. 
+
+4 files are required to run this game: deck_of_cards.py, blackjack.py, util.py, and main.py.
+- deck_of_cards.py
+  - Contains the class DeckOfCards. Contains methods to intuitively manipualate a deck using functions such as shuffle() and draw().
+- blackjack.py
+  - Contains the class Blackjack. Contains methods that pertain to the game itself such as play_cpu_turn(), play_player_turn(), and play().
+- util.py
+  - Contains all functions that are not class-specific such as clear() to clear the terminal screen.
+- main.py
+  - Main file that needs to be ran in order for the game to start.
+  
+
 ## Built With
 
 * [Python](https://www.python.org/) - The main programming language
