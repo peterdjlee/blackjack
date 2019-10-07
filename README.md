@@ -1,6 +1,6 @@
 # Blackjack
 
-This is a simplified version of Blackjack coded in Python.
+Simplified version of Blackjack coded in Python.
 
 ## Prerequisites
 
