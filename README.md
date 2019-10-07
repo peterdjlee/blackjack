@@ -40,7 +40,7 @@ Code was refactored into different functions and files to minimize redundancy an
 - util.py
   - Contains all functions that are not class-specific such as clear() to clear the terminal screen.
 - main.py
-  - Main file that needs to be ran in order for the game to start.
+  - Main file that needs to be run in order for the game to start.
   
 
 ## Built With
